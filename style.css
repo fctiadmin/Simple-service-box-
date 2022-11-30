@@ -1,0 +1,86 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.services{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.services .row{
+    display: flex;
+  row-gap: 50px;
+  column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services .row .col{
+    width:353px;
+    height: auto;
+    padding-top: 42px;
+    box-shadow: 0px 0px 22px 8px rgba(0,0,0,0.3);
+    position: relative;
+}
+.services .row .col span{
+    display: block;
+    text-align: center;
+}
+.start{
+    font-size: 18px;
+    color:black;
+
+}
+.price{
+    font-size: 38px;
+    color: #034db1;
+    font-weight: 600;
+}
+.year{
+font-size: 22px;
+color:black;
+}
+.title{
+    background: #034db1;
+    color:white;
+    text-align: center;
+    padding: 13px 0px;
+}
+.services .row .col ul{
+    list-style: none;
+    margin-top:25px;
+}
+.services .row .col ul li{
+    margin:15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.services .row .col ul li .fa{
+    color: #06b4fd;
+    font-size: 22px;
+    padding-right: 10px;
+
+}
+
+.services .row .col .mybtn .btn-box{
+    background: #034db1;
+    position: relative;
+    padding: 13px 0px;
+     top:25px;
+     text-align: center;
+     
+     border-radius: 8px;
+
+}
+.services .row .col .mybtn .btn-box a{
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #034db1;
+}
+.services .row .col .mybtn .btn-box:hover{
+    background: black;
+    transition: .5s;
+}
